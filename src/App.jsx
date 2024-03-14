@@ -15,8 +15,8 @@ function App() {
     <>
       <BasicNav />
       <Top />
-      <Routes>
-        <Route path='/' element={<Home />} />
+      <Routes basename="/villa">
+        <Route exact path='/villa' element={<Home />} />
         <Route path='/properties' element={<Properties />} />
         <Route path='/datails' element={<P_Datails />} />
         <Route path='/contact' element={<Contact_Us />} />
