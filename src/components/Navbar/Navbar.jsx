@@ -34,9 +34,9 @@ function BasicNav() {
             style={{ maxHeight: '100px' }}
             navbarScroll>
             <Nav.Link href='/'> Home</Nav.Link>
-            <Nav.Link  href='/properties'>Properties</Nav.Link>
-            <Nav.Link  href='/datails'>Property Datails</Nav.Link>
-            <Nav.Link  href='/contact'>Contact Us </Nav.Link>
+            <Nav.Link  href='/villa/properties'>Properties</Nav.Link>
+            <Nav.Link  href='/villa/datails'>Property Datails</Nav.Link>
+            <Nav.Link  href='/villa/contact'>Contact Us </Nav.Link>
           </Nav>
 
           <Form className="wrapper">

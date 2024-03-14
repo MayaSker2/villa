@@ -1,5 +1,6 @@
 .featured {
     margin-bottom: 100px;
+    height: max-content;
 }
 .part1{
     position: relative;
